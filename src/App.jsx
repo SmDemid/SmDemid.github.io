@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/SmDemid.github.io" element={<TodoPage />} />
+        <Route path="/" element={<TodoPage />} />
         <Route path="/dnd" element={<DndPage />} />
       </Routes>
     </Router>
